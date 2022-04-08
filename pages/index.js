@@ -13,7 +13,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          <li><a href="http://city-x.bandcamp.com">City X</a></li><li><a href="http://city-x.bandcamp.com">Bandcamp</a></li> <li><a href="http://city-x.bandcamp.com">Instagram</a></li> <a href="https://soundcloud.com/cityxxx">Soundcloud</a>
+          <li><a href="http://https://city-xxx.com/">City X</a></li><li><a href="http://city-x.bandcamp.com">Bandcamp</a></li> <li><a href="http://city-x.bandcamp.com">Instagram</a></li> <a href="https://soundcloud.com/cityxxx">Soundcloud</a>
         </h1>
 
         <h2 className={styles.artist}>
