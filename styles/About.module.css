@@ -172,12 +172,12 @@
 
 
 @media (max-width: 600px) {
-  .artist  {
-    font-size:4em;
+  .abouttext  {
+    font-size:1.5em;
     line-height: 1.4;
-    transform: rotate(90deg);
-    margin-top:200px;
-    margin-left:-130px;
+    
+    margin-top:px;
+    
   }
 
   .title li {
