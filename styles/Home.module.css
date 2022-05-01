@@ -173,11 +173,11 @@
 
 @media (max-width: 600px) {
   .artist  {
-    font-size:4em;
-    line-height: 1.4;
+    font-size:3.5em;
+    line-height: 1.2;
     transform: rotate(90deg);
     margin-top:200px;
-    margin-left:-130px;
+    margin-left:-170px;
   }
 
   .title li {
