@@ -1,5 +1,10 @@
 .container {
-  padding: 0 2rem;
+  padding: 0 1rem;
+}
+
+.containerabout {
+  padding: 0 1rem;
+  background-color: red;;
 }
 
 .main {
@@ -8,9 +13,30 @@
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: left;
+  align-items: left;
 }
+
+.image {
+  visibility: inherit;
+  position: fixed;
+  top:200px;
+  left:200px;
+  bottom: 0px;
+  right: 0px;
+  box-sizing: border-box;
+  padding: 0px;
+  border: none;
+  margin: auto;
+  display: block;
+  width: 100%;
+  height: 100%;
+  z-index:-2;
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 100%;
+  max-height: 100%;
+  }
 
 .title a {
   
@@ -21,7 +47,7 @@
 .title a:focus,
 .title a:active {
   text-decoration: underline;
-  color:grey;
+  color:rgba(195, 195, 195, 0.338);
 }
 
 .title li{
@@ -31,7 +57,7 @@
   margin-right:1em;
   font-weight:normal;
   
-  text-align:center;
+  text-align:left;
 
 }
 
@@ -48,12 +74,20 @@
   color:grey;
 }
 
-
-
-
-.artist li {
+.abouttext{
   list-style-type: none;
-  text-align:center;
+  text-align:left;
+  margin: 0;
+  line-height: 1.2;
+  font-size: 7.5em;
+  font-weight:normal;
+  
+}
+
+
+.artist{
+  list-style-type: none;
+  text-align:left;
   margin: 0;
   line-height: 1.2;
   font-size: 7.5em;
@@ -62,7 +96,7 @@
 }
 
 @media (max-width: 1175px) {
-  .artist li {
+  .artist {
     font-size:7em;
     line-height: 1.4;
     
@@ -77,7 +111,7 @@
 }
 
 @media (max-width: 1112px) {
-  .artist li {
+  .artist {
     font-size:6.5em;
     line-height: 1.4;
     
@@ -92,7 +126,7 @@
 }
 
 @media (max-width: 1030px) {
-  .artist li {
+  .artist {
     font-size:5.5em;
     line-height: 1.4;
     
@@ -107,7 +141,7 @@
 }
 
 @media (max-width: 880px) {
-  .artist li {
+  .artist {
     font-size:4.5em;
     line-height: 1.4;
     
@@ -122,7 +156,7 @@
 }
 
 @media (max-width: 731px) {
-  .artist li {
+  .artist  {
     font-size:3.5em;
     line-height: 1.4;
     
@@ -138,10 +172,12 @@
 
 
 @media (max-width: 600px) {
-  .artist li {
-    font-size:2.1em;
+  .artist  {
+    font-size:4em;
     line-height: 1.4;
-    
+    transform: rotate(90deg);
+    margin-top:200px;
+    margin-left:-130px;
   }
 
   .title li {
