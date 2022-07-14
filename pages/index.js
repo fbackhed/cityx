@@ -8,7 +8,8 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>City X</title>
-        <meta name="description" content="City X Malmö Sweden Techno" />
+        <meta name="description" content="City X is a Malmö music label with the members Virtual Echo, Log Hansen and Dj Subway 91.
+The songs we make are inspired by techno, ambient, house, exprimental, lo-fi, dreamy lushy pads, broken cassette and old folders of forgotten hard drives." />
         
       </Head>
 
